@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "groww-server": {
+      "command": "<FILE_LOCATION_OF_WINDOWS_MAC_OR_LINUX>",
+      "args": [],
+      "env": {
+        "API_KEY": "<API_KEY>",
+        "API_SECRET": "<API_SECRET>"
+      }
+    }
+  }
+}
