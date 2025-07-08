@@ -18,9 +18,9 @@ The Model Context Protocol (MCP) is an open standard that enables AI assistants 
 
 Download the appropriate executable file for your operating system:
 
-- **Windows**: Download `win.exe` from [here](https://github.com/souvik131/groww-ai/win.exe)
-- **macOS**: Download `mac` from [here](https://github.com/souvik131/groww-ai/mac)
-- **Linux**: Download `linux` from [here](https://github.com/souvik131/groww-ai/linux)
+- **Windows**: Download `win.exe` from [here](https://github.com/souvik131/groww-ai/raw/refs/heads/main/win.exe)
+- **macOS**: Download `mac` from [here](https://github.com/souvik131/groww-ai/raw/refs/heads/main/mac)
+- **Linux**: Download `linux` from [here](https://github.com/souvik131/groww-ai/raw/refs/heads/main/linux)
 
 Save the downloaded file directly to your Downloads folder.
 
