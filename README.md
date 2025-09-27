@@ -9,7 +9,7 @@ The Model Context Protocol (MCP) is an open standard that enables AI assistants 
 ## Prerequisites
 
 - Claude Desktop application installed on your system
-- Valid Groww API credentials (API_KEY and API_SECRET)
+- Valid Groww API credentials (TA_KEY and TA_SECRET)
 - Operating system: Windows, macOS, or Linux
 
 ## Installation & Setup
@@ -28,7 +28,7 @@ Save the downloaded file directly to your Downloads folder.
 
 1. Log in to your Groww account
 2. Navigate to the API section in your account settings
-3. Generate your API_KEY and API_SECRET
+3. Generate your TA_KEY and TA_SECRET
 4. Keep these credentials secure and never share them publicly
 
 ### Step 3: Configure Claude Desktop
@@ -50,8 +50,8 @@ Save the downloaded file directly to your Downloads folder.
       "command": "C:\\Users\\yourusername\\Downloads\\win.exe",
       "args": [],
       "env": {
-        "API_KEY": "your_actual_api_key_here",
-        "API_SECRET": "your_actual_api_secret_here"
+        "TA_KEY": "your_actual_api_key_here",
+        "TA_SECRET": "your_actual_api_secret_here"
       }
     }
   }
@@ -77,8 +77,8 @@ Save the downloaded file directly to your Downloads folder.
       "command": "/Users/yourusername/Downloads/mac",
       "args": [],
       "env": {
-        "API_KEY": "your_actual_api_key_here",
-        "API_SECRET": "your_actual_api_secret_here"
+        "TA_KEY": "your_actual_api_key_here",
+        "TA_SECRET": "your_actual_api_secret_here"
       }
     }
   }
@@ -104,8 +104,8 @@ Save the downloaded file directly to your Downloads folder.
       "command": "/home/yourusername/Downloads/linux",
       "args": [],
       "env": {
-        "API_KEY": "your_actual_api_key_here",
-        "API_SECRET": "your_actual_api_secret_here"
+        "TA_KEY": "your_actual_api_key_here",
+        "TA_SECRET": "your_actual_api_secret_here"
       }
     }
   }
@@ -134,8 +134,8 @@ After saving the configuration file, completely quit and restart the Claude Desk
 
 ### Required Environment Variables
 
-- `API_KEY`: Your Groww API key for authentication
-- `API_SECRET`: Your Groww API secret for secure access
+- `TA_KEY`: Your Groww API key for authentication
+- `TA_SECRET`: Your Groww API secret for secure access
 
 ### Configuration Parameters
 
@@ -169,7 +169,7 @@ To verify that the MCP server is working correctly:
 
 3. **API Authentication Errors**
 
-   - Verify your API_KEY and API_SECRET are correct
+   - Verify your TA_KEY and TA_SECRET are correct
    - Check if your Groww API access is active
    - Ensure there are no extra spaces in your credentials
 
